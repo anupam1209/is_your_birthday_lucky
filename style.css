@@ -2,8 +2,12 @@
 
 }
 
+body{
+    max-width: 500px;
+    margin: auto auto;
+}
+
 .container{
     display: flex;
     flex-direction: column;
-    width: 60vw;
 }
