@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>is your birthday lucky?</title>
-  </head>
-  <body>
-    <h1>Is your birthday lucky?🤩</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <title>is your birthday lucky?</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="header">
+      <h1>Is your <br> <span class="highlighted">birthday</span> lucky?🤩</h1>
+      <img src="images/birthday.svg" class="header-img" alt="">
+    </div>
     <div class="container">
       <label for="date-of-birth">Data of birth: </label>
-      <input id="date-of-birth" type="date" />
+      <input class="input" id="date-of-birth" type="date" />
       <label for="lucky-number">Lucky Number: </label>
-      <input id="lucky-number" type="number" />
+      <input class="input" id="lucky-number" type="number" />
       <button id="check-number">Check Number</button>
       <p id="output-box"></p>
     </div>
-    <script src="script.js"></script>
-  </body>
+  </div>
+  <footer class="footer">
+    <div class="footer-header">social media presence</div>
+    <ul class="social-links">
+      <li class="non-bullet list-item-inline">
+        <a class="link footer-link" href="https://github.com/anupam1209">github</a>
+      </li>
+      <li class="non-bullet list-item-inline">
+        <a class="link footer-link" href="https://twitter.com/AnupamPrakash">twitter</a>
+      </li>
+      <li class="non-bullet list-item-inline">
+        <a class="link footer-link" href="https://www.linkedin.com/in/anupam-prakash-54822818b/">linkedIn</a>
+      </li>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
