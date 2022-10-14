@@ -4,6 +4,10 @@ const checkNumberButton = document.querySelector("#check-number");
 const outputBox = document.querySelector("#output-box");
 
 function compareValues(sum, luckyNumber){
+    if (luckyNumber < 0) {
+    outputBox.innerText = "Enter only positive values in lucky number please😢";
+    return;
+    }
     if(sum % luckyNumber === 0){
        outputBox.innerText = "lucky you're!!😍";
     }else{
